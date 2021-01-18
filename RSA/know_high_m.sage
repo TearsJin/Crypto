@@ -12,7 +12,7 @@ for i in range(1,11):
     PR.<x> = PolynomialRing(Zmod(n))
     f = (m0 + x)^e - c
     try:
-        x0 = f.small_roots(X=2^kbits, beta=b)[0]  # find root < 2^kbits with factor = n
+        x0 = f.small_roots(X=2^kbits, beta=b)[0]
         print("m:", m0 + x0)
         break
     except:
