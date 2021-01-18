@@ -1,4 +1,4 @@
-# when we know m0 so that m = m0 + x 
+# when we know m0 that m = m0 + x 
 # and the x must meet |x| < N^(1/e)
 # then we can figure out the x
 n = 
